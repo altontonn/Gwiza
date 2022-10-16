@@ -17,3 +17,43 @@ body {
   height: 100px;
 }
 
+.imgCaption {
+  height: 80vh;
+}
+
+.caption {
+  position: absolute;
+  top: 12rem;
+  left: 25rem;
+}
+
+.explore {
+  background-color: #34ad54;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+
+.content {
+  background-image: url("./img/top-title.webp");
+  background-repeat: no-repeat;
+  background-position: top, center;
+  background-position-y: 5rem;
+  background-color: #fff;
+  padding: 2rem 2rem;
+}
+
+.header {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.content h1 {
+  letter-spacing: 2.5px;
+  font-size: 34px;
+}
+
+.content p {
+  color: #98B4A0;
+  font-family: 'Satisfy', cursive;
+}
