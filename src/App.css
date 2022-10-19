@@ -1,9 +1,15 @@
-body {
+:root {
+  --white: #fff;
+  --ligthGreen: #34ad54;
+}
+
+.carousel {
   background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27))
 }
 
 .navbarContainer {
   border-bottom: 1px solid #fff;
+  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27))
 }
 
 .navLink {
@@ -43,6 +49,15 @@ body {
   padding: 2rem 2rem;
 }
 
+.exploreButton {
+  background: var(--ligthGreen);
+  color: var(--white);
+  padding: 10px 50px; 
+  border: none;
+  font-family: sans-serif;
+  margin: 35px 0px 0px;
+}
+
 .header {
   text-align: center;
   padding-top: 8rem;
@@ -56,4 +71,58 @@ body {
 .content p {
   color: #98B4A0;
   font-family: 'Satisfy', cursive;
+}
+
+.products {
+  background-image: url("./img/top-title.webp");
+  background-repeat: no-repeat;
+  background-position: top, center;
+  background-position-y: 5rem;
+  background-color: #fff;
+  padding: 2rem 2rem;
+}
+
+.productImg {
+  width: 22rem;
+}
+
+.productImg1 {
+  width: 22rem;
+  height: 16.5rem;
+}
+
+.logo {
+  background-color: var(--white);
+  padding: 5rem 0;
+  border-top: 1px solid #757575;
+  font-family: sans-serif;
+}
+
+.logoOne {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: url(./img/banner-6-3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #A0A0A0;
+  padding: 5rem 0;
+}
+
+.footer h1 {
+  font-size: 18px;
+  color: var(--white);
+  
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer ul li {
+  padding: 1rem;
 }
