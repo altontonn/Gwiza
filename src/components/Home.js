@@ -117,10 +117,10 @@ const Home = () => {
       <section className="footer">
         <Container>
           <Row>
-            <Col className="text-center">
+            <Col>
               <h1>Location</h1>
               <ul>
-                <li>962 Fifth Avenue, 3rd Floor New York, NY10022</li>
+                <li>Chalbi condominium. Ring Road. Room 1B, Kilimani</li>
                 <li>domain: coming soon</li>
                 <li>+250 785 084 614</li>
                 <li>+254 111 600 492</li>
