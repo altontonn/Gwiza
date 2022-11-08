@@ -23,8 +23,8 @@ const Home = () => {
             alt="First slide"
           />
           <Carousel.Caption className="caption">
-            <h3>We sell Avocado</h3>
-            <p>We provide avocado to your place.</p>
+            <h3>Quality Guarantees</h3>
+            <p>We guarantee quality and optimum maturity of avocados.</p>
             <button className="explore">Explore</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -36,8 +36,8 @@ const Home = () => {
           />
 
           <Carousel.Caption className="caption">
-            <h3>Fresh Avocado</h3>
-            <p>We ship Avocado.</p>
+            <h3>Happy Farmers</h3>
+            <p>Our partners farmers are proud and happy working with us!</p>
             <button className="explore">Explore</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -49,8 +49,8 @@ const Home = () => {
           />
 
           <Carousel.Caption className="caption">
-            <h3>Export Avocado</h3>
-            <p>Exporting Avocado from Nairobi is our work.</p>
+            <h3>Sourcing</h3>
+            <p>source avocados from our company farms and partner farms.</p>
             <button className="explore">Explore</button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -58,26 +58,24 @@ const Home = () => {
       {/* ORGANIC FARMING */}
       <section className="content">
         <div className="header">
-          <h1>ORGANIC FARMING</h1>
-          <p>Our process grape silver beet</p>
+          <h1>Avocado Precooling</h1>
+          <p>Avocado Is our top exporting fruit. Our main varieties are Hass avocado, Fuerte Avocado </p>
         </div>
         <Container>
           <Row>
             <Col className="text-center">
               <img src={Avocado} alt="" />
-              <h2>YOUR FAVORITE FRUIT</h2>
+              <h2>Long Shelf Life guaranteed</h2>
               <p>
-                We extract avocado from farmers and export it to the four
-                corners of the world.
+                The avocados stay fresh throughout the supply chain.
               </p>
               <button className="exploreButton">Explore</button>
             </Col>
             <Col className="text-center">
               <img src={Avocado} alt="" />
-              <h2>OUR FARM PRODUCT</h2>
+              <h2>Guaranteed avocado freshness</h2>
               <p>
-                With us we shall make sure that green fruits is at your
-                disposal.
+                The freshness of the avocados is guaranteed for a long time.
               </p>
               <button className="exploreButton">Explore</button>
             </Col>
@@ -94,15 +92,18 @@ const Home = () => {
           <Row>
             <Col className="text-center">
               <img src={vocado4} alt="avocado" className="productImg" />
-              <p>YOUR FAVORITE FRUIT</p>
+              <h5>Quality to customers</h5>
+              <p>Customers stay top of the market because of the high quality of our avocados.</p>
             </Col>
             <Col className="text-center">
               <img src={vocado5} alt="avocado" className="productImg" />
-              <p>YOUR FAVORITE FRUIT</p>
+              <h5>Conserving weight of the avocado</h5>
+              <p>Preventing softening water loss and wilting.</p>
             </Col>
             <Col className="text-center">
               <img src={vocado6} alt="avocado" className="productImg1" />
-              <p>YOUR FAVORITE FRUIT</p>
+              <h5>Guaranteed avocado freshness</h5>
+              <p>Preventing softening water loss and wilting.</p>
             </Col>
           </Row>
         </Container>

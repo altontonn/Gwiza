@@ -1,0 +1,47 @@
+.frameMap {
+  width: 100%;
+  height: 600px;
+}
+
+.mapContent {
+  margin-top: 7rem;
+}
+
+.header {
+  font-size: 30px;
+  color: #0d0d0d;
+  font-family: Open Sans,sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contactIcons {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.icons {
+  font-size: 2.5rem;
+  margin-right: 3rem;
+}
+
+.text {
+  color: #757575;
+}
+
+.button {
+  background-color: #34a455;
+  border: none;
+  border-radius: 0%;
+  font-size: 12px;
+  height: 50px;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #34a455;
+}
+
+.form {
+  padding: 5rem 0;
+}

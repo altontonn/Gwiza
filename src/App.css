@@ -73,6 +73,11 @@
   font-family: 'Satisfy', cursive;
 }
 
+.inputField {
+  padding: 1rem;
+  outline: none;
+}
+
 .products {
   background-image: url("./img/top-title.webp");
   background-repeat: no-repeat;
