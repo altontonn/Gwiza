@@ -20,6 +20,7 @@ const Contact = () => {
       <section className={contact.mapContent}>
         <iframe
           className={contact.frameMap}
+          title="google map"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=chalbi%20condominium&t=&z=13&ie=UTF8&iwloc=&output=embed"
           frameborder="0"
