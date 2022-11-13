@@ -3,10 +3,6 @@
   --ligthGreen: #34ad54;
 }
 
-.carousel {
-  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27))
-}
-
 .navbarContainer {
   border-bottom: 1px solid #fff;
   background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27))
@@ -19,26 +15,36 @@
   text-transform: uppercase;
 }
 
+.topHeader {
+  height: 100vh;
+  background-image: linear-gradient(hsla(87, 9%, 57%, 0.4), hsla(87, 9%, 57%, 0.4)), url('./img/Avocados.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 0 0 5rem 0;
+}
+
+.headerText {
+  color: #fff;
+  width: 40%;
+  display: block;
+  float: right;
+  margin-top: 8rem;
+}
+
+.headerText p {
+  color: #bcba63;
+  font-size: 18px;
+}
+
+.headerText h1 {
+  font-size: 4.2rem;
+}
+
 .imgLogo {
   height: 100px;
 }
 
-.imgCaption {
-  height: 80vh;
-}
-
-.caption {
-  position: absolute;
-  top: 12rem;
-  left: 25rem;
-}
-
-.explore {
-  background-color: #34ad54;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-}
 
 .content {
   background-image: url("./img/top-title.webp");
@@ -94,6 +100,35 @@
 .productImg1 {
   width: 22rem;
   height: 16.5rem;
+}
+
+.freshelaImg {
+  width: 40vw;
+  border-radius: 5%;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  padding: 2rem;
+}
+
+.boxIcon {
+  color: #6a961f;
+  z-index: 2;
+}
+
+.boxHeader {
+  color: #808285;
+  font-size: 20px;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  color: #808285;
 }
 
 .logo {

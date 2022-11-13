@@ -46,7 +46,7 @@ const About = () => {
                 <li>Chalbi condominium. Ring Road. Room 1B, Kilimani</li>
                 <li>domain: coming soon</li>
                 <li>+250 785 084 614</li>
-                <li>+254 111 600 492</li>
+                <li>+254 745 904 125</li>
               </ul>
             </Col>
             <Col className="text-center">
