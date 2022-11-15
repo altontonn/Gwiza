@@ -131,6 +131,48 @@
   color: #808285;
 }
 
+.title h2{
+  font-size: 18px;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.p1 {
+  color: #808285;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.answer p {
+  color: #808285;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 3rem;
+}
+
+.green {
+  color: #6a961f;
+}
+
+.grey {
+  color: #808285;
+}
+
+.answer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.show {
+  height: 25px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
 .logo {
   background-color: var(--white);
   padding: 5rem 0;
