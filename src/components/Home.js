@@ -158,7 +158,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className="boxHeader text-center">Avocado Sourcing</h1>
+              <h1 className="boxHeader text-center">Avocado Precooling</h1>
               <div className="boxes">
                 <div className="box">
                   <h2>
