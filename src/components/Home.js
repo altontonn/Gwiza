@@ -18,7 +18,7 @@ import vocado8 from "../img/vocado8.jpg";
 import precooling from "../img/precooling.jpg";
 import logo from "../img/logo@2x.png";
 import pic from "../img/ineza-house-logo.jpg";
-import book from "../img/book.jpg"
+import book from "../img/book.jpg";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -135,21 +135,25 @@ const Home = () => {
           <Row>
             <Col className="text-center">
               <img src={vocado4} alt="avocado" className="productImg" />
-              <h5>Quality to customers</h5>
+              <h5>LIFESTYLE FACTOR</h5>
               <p>
-                Customers stay top of the market because of the high quality of
-                our avocados.
+                Turnip greens yarrow ricebean rutabaga endive cauliflower sea
+                lettuce kohlrabi amaranth water spinach avocado daikon napa
+                cabbage.
               </p>
             </Col>
             <Col className="text-center">
               <img src={vocado5} alt="avocado" className="productImg" />
-              <h5>Conserving weight of the avocado</h5>
+              <h5>CONSERVING THE WEIGHT OF THE AVOCADO</h5>
               <p>Preventing softening water loss and wilting.</p>
             </Col>
             <Col className="text-center">
               <img src={vocado6} alt="avocado" className="productImg1" />
-              <h5>Guaranteed avocado freshness</h5>
-              <p>Preventing softening water loss and wilting.</p>
+              <h5>YOUR FAVORITE FRUIT</h5>
+              <p>
+                We extract avocado from farmers and export it to the four
+                corners of the world.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -223,15 +227,19 @@ const Home = () => {
                   {data.map((item, i) => (
                     <>
                       <div className="title" onClick={() => toggle(i)}>
-                        <h2 className={selected === i ? 'green' : 'grey'}>
-                          {selected === i
-                            ? <MdOutlineKeyboardArrowDown />
-                            : <MdOutlineKeyboardArrowRight />}
+                        <h2 className={selected === i ? "green" : "grey"}>
+                          {selected === i ? (
+                            <MdOutlineKeyboardArrowDown />
+                          ) : (
+                            <MdOutlineKeyboardArrowRight />
+                          )}
                           {item.question}
                         </h2>
                         <span></span>
                       </div>
-                      <div className={selected === i ? 'answer show' : 'answer'}>
+                      <div
+                        className={selected === i ? "answer show" : "answer"}
+                      >
                         <p>{item.answer}</p>
                       </div>
                     </>
@@ -268,11 +276,31 @@ const Home = () => {
             <Col className="text-center">
               <ul>
                 <h1 className="footerLink2">Quick Links</h1>
-                <li><NavLink className="navLink" to="/">Home</NavLink></li>
-                <li><NavLink className="navLink" to="/about">About Us</NavLink></li>
-                <li><NavLink className="navLink" to="/precooling">Avocado Precooling</NavLink></li>
-                <li><NavLink className="navLink" to="/sourcing">Avocado Sourcing</NavLink></li>
-                <li><NavLink className="navLink" to="/contact">Contact</NavLink></li>
+                <li>
+                  <NavLink className="navLink" to="/">
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navLink" to="/about">
+                    About Us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navLink" to="/precooling">
+                    Avocado Precooling
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navLink" to="/sourcing">
+                    Avocado Sourcing
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navLink" to="/contact">
+                    Contact
+                  </NavLink>
+                </li>
               </ul>
             </Col>
           </Row>

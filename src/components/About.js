@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import about from "../css_modules/about.module.css";
-import vocado from "../img/vocado4.jpg";
+import vocado from "../img/Avocados.webp";
 import pic from "../img/ineza-house-logo.jpg";
 import { NavLink } from "react-router-dom";
 
@@ -17,7 +17,8 @@ const About = () => {
         <Container className={about.content}>
           <Row className="mt-5">
             <Col>
-              <h1 className="mb-2">About Us</h1>
+              <h1 className="mb-2 text-center">About Us</h1>
+              <img src={vocado} className={about.vocadoImg} alt="avocado" />
               <p className={about.ptext}>
                 Your one-stop for organic fresh fruits and vegetables.Freshela
                 is a Kenyan-based company engaging in the sourcing, processing,
@@ -31,9 +32,6 @@ const About = () => {
                 looking for locally grown organic produce, we'll be happy to
                 serve you.
               </p>
-            </Col>
-            <Col>
-              <img src={vocado} className={about.vocadoImg} alt="avocado" />
             </Col>
           </Row>
         </Container>

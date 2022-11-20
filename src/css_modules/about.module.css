@@ -1,6 +1,6 @@
 Header {
   min-height: 40vh;
-  background-image: url('../img/pagetitle.webp'); 
+  background-image: url("../img/pagetitle.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,14 +23,18 @@ Header {
 }
 
 .header-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .vocadoImg {
-  width: 30vw;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .ptext {
   font-family: sans-serif;
   color: #757575;
+  padding: 2rem 0;
 }
