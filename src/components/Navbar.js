@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 import RouteLink from "./Router";
 import "../App.css";
 import pic from "../img/ineza-house-logo.jpg";
@@ -16,7 +17,16 @@ const Navigation = () => {
             <Navbar>
               <NavLink className="navLink" to="/">Home</NavLink>
               <NavLink className="navLink" to="/about">About</NavLink>
-              <NavLink className="navLink" to="/services">Services</NavLink>
+              <Dropdown>
+                <Dropdown.Toggle id="dropdown-basic" className="dropdown">
+                  Services
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item><NavLink className="navLink1" to="/precooling">Avocado Precooling</NavLink></Dropdown.Item>
+                  <Dropdown.Item><NavLink className="navLink1" to="/sourcing">Avocado Sourcing</NavLink></Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
               <NavLink className="navLink" to="/contact">Contact</NavLink>
             </Navbar>
           </Navbar.Collapse>
@@ -26,5 +36,4 @@ const Navigation = () => {
     </>
   );
 }
-
 export default Navigation;

@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import about from "../css_modules/about.module.css";
 import vocado from "../img/vocado4.jpg";
 import pic from "../img/ineza-house-logo.jpg";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
         <Container className={about.content}>
           <Row className="mt-5">
             <Col>
-              <h1 className="mb-2">About Our Online</h1>
+              <h1 className="mb-2">About Us</h1>
               <p className={about.ptext}>
                 Your one-stop for organic fresh fruits and vegetables.Freshela
                 is a Kenyan-based company engaging in the sourcing, processing,
@@ -54,10 +55,12 @@ const About = () => {
             </Col>
             <Col className="text-center">
               <ul>
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>CONTACT</li>
+                <h1 className="footerLink2">Quick Links</h1>
+                <li><NavLink className="navLink" to="/">Home</NavLink></li>
+                <li><NavLink className="navLink" to="/about">About Us</NavLink></li>
+                <li><NavLink className="navLink" to="/precooling">Avocado Precooling</NavLink></li>
+                <li><NavLink className="navLink" to="/sourcing">Avocado Sourcing</NavLink></li>
+                <li><NavLink className="navLink" to="/contact">Contact</NavLink></li>
               </ul>
             </Col>
           </Row>

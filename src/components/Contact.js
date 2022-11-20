@@ -6,8 +6,9 @@ import { GrLocation, GrPhone, GrMailOption } from "react-icons/gr";
 import { BsClock } from "react-icons/bs";
 import about from "../css_modules/about.module.css";
 import contact from "../css_modules/contact.module.css";
-import FormGroup from "./Form";
+import { FormGroup } from "./Form";
 import pic from "../img/ineza-house-logo.jpg";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -97,10 +98,12 @@ const Contact = () => {
             </Col>
             <Col className="text-center">
               <ul>
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>CONTACT</li>
+                <h1 className="footerLink2">Quick Links</h1>
+                <li><NavLink className="navLink" to="/">Home</NavLink></li>
+                <li><NavLink className="navLink" to="/about">About Us</NavLink></li>
+                <li><NavLink className="navLink" to="/precooling">Avocado Precooling</NavLink></li>
+                <li><NavLink className="navLink" to="/sourcing">Avocado Sourcing</NavLink></li>
+                <li><NavLink className="navLink" to="/contact">Contact</NavLink></li>
               </ul>
             </Col>
           </Row>

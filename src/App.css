@@ -1,18 +1,30 @@
 :root {
   --white: #fff;
   --ligthGreen: #34ad54;
+  --black: #000;
 }
 
 .navbarContainer {
   border-bottom: 1px solid #fff;
-  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27))
+  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27));
+  height: 5rem;
 }
 
 .navLink {
   text-decoration: none;
   padding: 1rem;
   color: #fff;
-  text-transform: uppercase;
+}
+
+.navLink1{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.dropdown {
+  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27));
+  border: none;
+  outline: none;
 }
 
 .topHeader {
@@ -42,9 +54,8 @@
 }
 
 .imgLogo {
-  height: 100px;
+  height: 5rem;
 }
-
 
 .content {
   background-image: url("./img/top-title.webp");
@@ -105,6 +116,7 @@
 .freshelaImg {
   width: 40vw;
   border-radius: 5%;
+  box-shadow: 20px 20px 50px #ccc;
 }
 
 .boxes {
@@ -116,7 +128,11 @@
   padding: 2rem;
 }
 
-.boxIcon {
+.preBox {
+  padding: 1rem;
+}
+
+.boxIcon, .preBoxIcon {
   color: #6a961f;
   z-index: 2;
 }
@@ -126,7 +142,7 @@
   font-size: 20px;
 }
 
-.box h2 {
+.box h2, .preBox h2 {
   font-size: 1.2rem;
   color: #808285;
 }
@@ -190,13 +206,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #A0A0A0;
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
 }
 
-.footer h1 {
+.footerLink1 {
   font-size: 18px;
   color: var(--white);
   padding-left: 3rem;
+}
+
+.footerLink2 {
+  font-size: 18px;
+  color: var(--white);
+  padding-left: 1rem;
 }
 
 .footer ul {
@@ -205,6 +227,10 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .footer ul li {
-  padding: 1rem;
+  padding: 16px;
+}
+.footer ul li a{
+  color: #A0A0A0;
 }

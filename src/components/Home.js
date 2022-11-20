@@ -19,6 +19,7 @@ import precooling from "../img/precooling.jpg";
 import logo from "../img/logo@2x.png";
 import pic from "../img/ineza-house-logo.jpg";
 import book from "../img/book.jpg"
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [selected, setSelected] = useState(null);
@@ -266,10 +267,12 @@ const Home = () => {
             </Col>
             <Col className="text-center">
               <ul>
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>CONTACT</li>
+                <h1 className="footerLink2">Quick Links</h1>
+                <li><NavLink className="navLink" to="/">Home</NavLink></li>
+                <li><NavLink className="navLink" to="/about">About Us</NavLink></li>
+                <li><NavLink className="navLink" to="/precooling">Avocado Precooling</NavLink></li>
+                <li><NavLink className="navLink" to="/sourcing">Avocado Sourcing</NavLink></li>
+                <li><NavLink className="navLink" to="/contact">Contact</NavLink></li>
               </ul>
             </Col>
           </Row>
