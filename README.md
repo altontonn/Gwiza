@@ -1,6 +1,6 @@
 
 
-# Gwiza Website :gem
+# Gwiza Website 💎
 
 > Gwiza
 
