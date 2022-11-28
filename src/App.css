@@ -4,7 +4,6 @@
   --black: #000;
 }
 
-
 .navbarContainer {
   border-bottom: 1px solid #fff;
   background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27));
@@ -146,16 +145,28 @@
 }
 
 @media screen and (max-width: 600px) {
+  .question {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .freshelaBox {
+    display: flex;
+    flex-direction: column;
+  }
+
   .freshelaImg {
-    width: 60vw;
+    width: 50vw;
     margin-right: auto;
     margin-left: auto;
     display: block;
   }
 
-  .question {
-    display: flex;
-    flex-direction: column;
+  .preBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -239,6 +250,23 @@
 .logoOne {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .col-8 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .col-8 {
+    width: 100%;
+  }
+
+  .preBox1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .footer {

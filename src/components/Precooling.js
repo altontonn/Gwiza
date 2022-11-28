@@ -26,7 +26,7 @@ const Precooling = () => {
       </section>
       <section className="freshela mt-5 mb-5">
         <Container>
-          <Row>
+          <Row className="freshelaBox">
             <Col>
               <img src={precooling} alt="avocado" className="freshelaImg" />
             </Col>
@@ -76,45 +76,47 @@ const Precooling = () => {
       <section className={contact.sectionForm}>
         <Container>
           <Row className={contact.sectionForm1}>
-            <Col xs={8} sm={8}>
+            <Col xs={8} lg={8} sm={8}>
               <h1 className={contact.preForm}>Request a call back</h1>
               <PreFormGroup/>
             </Col>
             <Col className="mt-5">
-              <div className="preBox">
-                <h2>
-                  <BsCalendarCheck className="preBoxIcon" />
-                  &nbsp;&nbsp;Long Shelf Life guaranteed
-                </h2>
-                <p>The avocados stay fresh throughout the supply chain..</p>
-              </div>
-              <div className="preBox">
-                <h2>
-                  <FaSeedling className="preBoxIcon" />
-                  &nbsp;&nbsp;Conserving weight of the avocados
-                </h2>
-                <p>
-                  Our partners farmers are proud and happy working with us!.
-                </p>
-              </div>
-              <div className="preBox">
-                <h2>
-                  <FaHandHoldingHeart className="preBoxIcon" />
-                  &nbsp;&nbsp;Guaranteed avocado freshness
-                </h2>
-                <p>
-                  The freshness of the avocados is guaranteed for a long time..
-                </p>
-              </div>
-              <div className="preBox">
-                <h2>
-                  <FaStopwatch className="preBoxIcon" />
-                  &nbsp;&nbsp;Quality to customers
-                </h2>
-                <p>
-                  Customers stay top of the market because of the high quality
-                  of our avocados..
-                </p>
+              <div className="preBox1">
+                <div className="preBox">
+                  <h2>
+                    <BsCalendarCheck className="preBoxIcon" />
+                    &nbsp;&nbsp;Long Shelf Life guaranteed
+                  </h2>
+                  <p>The avocados stay fresh throughout the supply chain..</p>
+                </div>
+                <div className="preBox">
+                  <h2>
+                    <FaSeedling className="preBoxIcon" />
+                    &nbsp;&nbsp;Conserving weight of the avocados
+                  </h2>
+                  <p>
+                    Our partners farmers are proud and happy working with us!.
+                  </p>
+                </div>
+                <div className="preBox">
+                  <h2>
+                    <FaHandHoldingHeart className="preBoxIcon" />
+                    &nbsp;&nbsp;Guaranteed avocado freshness
+                  </h2>
+                  <p>
+                    The freshness of the avocados is guaranteed for a long time..
+                  </p>
+                </div>
+                <div className="preBox">
+                  <h2>
+                    <FaStopwatch className="preBoxIcon" />
+                    &nbsp;&nbsp;Quality to customers
+                  </h2>
+                  <p>
+                    Customers stay top of the market because of the high quality
+                    of our avocados..
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>
