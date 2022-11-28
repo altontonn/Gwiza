@@ -66,3 +66,14 @@
 .sectionForm h1 {
   padding: 2rem 0;
 }
+
+@media screen and (max-width: 600px) {
+  .sectionForm1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FormGroup {
+    
+  }
+}

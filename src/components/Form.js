@@ -25,7 +25,7 @@ export const FormGroup = () => {
 
 export const PreFormGroup = () => {
   return (
-    <Form>
+    <Form className={contact.FormGroup}>
       <Form.Group className="mb-3" controlId="formGroupPassword">
         <Form.Control type="text" placeholder="Your Name" className="inputField"/>
       </Form.Group>

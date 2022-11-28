@@ -67,7 +67,7 @@ const Home = () => {
         </Container>
       </section>
       {/* Freshela Exports Process */}
-      <section className="freshela mb-5">
+      <section className="freshela">
         <div className="freshelaHeader">
           <h1 className="boxHeader text-center mb-5">
             Freshela Export Process
@@ -212,7 +212,7 @@ const Home = () => {
       {/* Question and Answers */}
       <section className="freshela mb-5">
         <Container>
-          <Row>
+          <Row className="question">
             <Col>
               <img src={book} alt="avocado" className="freshelaImg" />
             </Col>
@@ -317,11 +317,13 @@ const Home = () => {
 };
 const data = [
   {
+    id: 1,
     question: "What kind of fruits do you specialize in?",
     answer:
       "Avocado Is our top exporting fruit. Our main varieties are Hass avocado, Fuerte Avocado",
   },
   {
+    id: 2,
     question: "Is your company licensed?",
     answer: "YES. We are Licensed to export from Kenya.",
   },

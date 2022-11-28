@@ -75,10 +75,10 @@ const Precooling = () => {
       </section>
       <section className={contact.sectionForm}>
         <Container>
-          <Row>
-            <Col xs={8}>
+          <Row className={contact.sectionForm1}>
+            <Col xs={8} sm={8}>
               <h1 className={contact.preForm}>Request a call back</h1>
-              <PreFormGroup />
+              <PreFormGroup/>
             </Col>
             <Col className="mt-5">
               <div className="preBox">
@@ -135,10 +135,10 @@ const Precooling = () => {
                   title="google map"
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=chalbi%20condominium&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
+                  frameBorder="0"
                   scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
+                  marginHeight="0"
+                  marginWidth="0"
                 ></iframe>
               </section>
             </Col>

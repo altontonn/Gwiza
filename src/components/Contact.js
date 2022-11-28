@@ -24,10 +24,10 @@ const Contact = () => {
           title="google map"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=chalbi%20condominium&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
-          marginheight="0"
-          marginwidth="0"
+          marginHeight="0"
+          marginWidth="0"
         ></iframe>
       </section>
       <section className={contact.form}>
