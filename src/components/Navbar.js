@@ -11,7 +11,7 @@ const Navigation = () => {
     <>
       <Navbar className="navbarContainer" collapseOnSelect expand="sm">
         <Container>
-        <Navbar.Brand href="#home"><img src={pic} className="imgLogo" alt="Gwiza logo" /></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={pic} className="imgLogo" alt="Gwiza logo" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll"/>
           <Navbar.Collapse id="navbarScroll" className="justify-content-end">
             <Navbar>

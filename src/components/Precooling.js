@@ -141,7 +141,7 @@ const Precooling = () => {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
-                ></iframe>
+                />
               </section>
             </Col>
             <Col className="text-center">

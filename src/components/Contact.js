@@ -28,7 +28,7 @@ const Contact = () => {
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
-        ></iframe>
+        />
       </section>
       <section className={contact.form}>
         <Container>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,6 +10,8 @@ import {
   MdOutlineKeyboardArrowRight,
   MdOutlineKeyboardArrowDown,
 } from "react-icons/md";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Avocado from "../img/Avocado.webp";
 import vocado4 from "../img/vocado4.jpg";
 import vocado5 from "../img/vocado5.jpg";
@@ -30,6 +32,9 @@ const Home = () => {
     setSelected(i);
   };
 
+  useEffect(() => {
+    AOS.init({duration: 2500});
+  }, []);
   return (
     <>
       <section className="topHeader overlay">
@@ -39,12 +44,12 @@ const Home = () => {
         </div>
       </section>
       {/* ORGANIC FARMING */}
-      <section className="content">
+      <section className="content" data-aos="fade-left">
         <div className="header">
           <h1>Avocado Precooling</h1>
           <p>
             Avocado Is our top exporting fruit. Our main varieties are Hass
-            avocado, Fuerte Avocado{" "}
+            avocado, Fuerte Avocado
           </p>
         </div>
         <Container>
@@ -67,7 +72,7 @@ const Home = () => {
         </Container>
       </section>
       {/* Freshela Exports Process */}
-      <section className="freshela">
+      <section className="freshela" data-aos="fade-right">
         <div className="freshelaHeader">
           <h1 className="boxHeader text-center mb-5">
             Freshela Export Process
@@ -204,7 +209,7 @@ const Home = () => {
               </div>
             </Col>
             <Col>
-              <img src={precooling} alt="avocado" className="freshelaImg" />
+              <img src={precooling} alt="avocado" className="freshelaImg" data-aos="flip-left"/>
             </Col>
           </Row>
         </Container>
@@ -214,7 +219,7 @@ const Home = () => {
         <Container>
           <Row className="question">
             <Col>
-              <img src={book} alt="avocado" className="freshelaImg" />
+              <img src={book} alt="avocado" className="freshelaImg" data-aos="flip-right"/>
             </Col>
             <Col className="mt-5">
               <h1 className="boxHeader text-center">Questions & Answers</h1>

@@ -22,9 +22,13 @@
 }
 
 .dropdown {
-  background-image: radial-gradient(rgb(37, 68, 37), rgb(27, 59, 27));
+  background-color: transparent;
   border: none;
   outline: none;
+}
+
+.dropdown:hover {
+  background-color: transparent;
 }
 
 .topHeader {
@@ -70,6 +74,13 @@
 
 .imgLogo {
   height: 5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .imgLogo {
+    height: 4rem;
+    margin: -0.4rem 0 0 0;
+  }
 }
 
 .content {
