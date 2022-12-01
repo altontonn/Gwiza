@@ -6,7 +6,7 @@ export const FormGroup = () => {
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formGroupEmail">
-        <Form.Control type="email" placeholder="Enter email" className="inputField"/>
+        <Form.Control type="email" placeholder="Enter email" className="inputField" required/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formGroupPassword">
         <Form.Control type="password" placeholder="Password" className="inputField"/>
@@ -15,7 +15,7 @@ export const FormGroup = () => {
         <Form.Control as="textarea" placeholder="Message" className="inputField" rows={7} />
       </Form.Group>
       <div className="d-grid gap-2">
-        <Button className={contact.button} size="lg">
+        <Button className={contact.button} type="submit" size="lg">
           SEND MESSAGE
         </Button>
       </div>
@@ -27,10 +27,10 @@ export const PreFormGroup = () => {
   return (
     <Form className={contact.FormGroup}>
       <Form.Group className="mb-3" controlId="formGroupPassword">
-        <Form.Control type="text" placeholder="Your Name" className="inputField"/>
+        <Form.Control type="text" placeholder="Your Name" className="inputField" required />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formGroupEmail">
-        <Form.Control type="email" placeholder="Your email" className="inputField"/>
+        <Form.Control type="email" placeholder="Your email" className="inputField" required/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formGroupEmail">
         <Form.Control type="text" placeholder="Your Message" className="inputField"/>
@@ -39,7 +39,7 @@ export const PreFormGroup = () => {
         <Form.Control as="textarea" placeholder="Message" className="inputField" rows={7} />
       </Form.Group>
       <div className="d-grid gap-2">
-        <Button className={contact.preButton}>
+        <Button className={contact.preButton} type="submit">
           Contact Us
         </Button>
       </div>
